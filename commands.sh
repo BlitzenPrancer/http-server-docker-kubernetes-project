@@ -1,6 +1,6 @@
-docker build --no-cache -t BlitzenPrancer/http-server-docker-kubernetes-project:v1 .
+docker build --no-cache -t blitzenprancer/http-server-docker-kubernetes-project:v1 .
 
-docker push suda2001/http-server-docker-kubernetes-project:v1
+docker push blitzenprancer/http-server-docker-kubernetes-project:v1
 
 kubectl delete deployment http-server-docker-kubernetes-project
 
